@@ -1,0 +1,97 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  padding: 3rem 4rem;
+  background: #e6eef0;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 3.5rem;
+}
+
+strong {
+  font-weight: 700;
+}
+
+.container {
+  display: flex;
+}
+
+.temp {
+  font-size: 10rem;
+  margin: 0;
+}
+
+.subtitle {
+  font-size: 2rem;
+  color: #00000082;
+  margin: 0;
+}
+
+.weather-text {
+  font-size: 38px;
+  color: #00000082;
+  margin-top: 2rem;
+}
+
+.time {
+  font-size: 2rem;
+  color: #00000082;
+  text-align: left;
+  width: 100px;
+}
+
+.date-text {
+  color: #154661;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 2rem;
+}
+
+.event-text {
+  color: #154661;
+  font-weight: 700;
+  font-size: 2.5rem;
+  margin-top: 2rem;
+}
+
+.schedule {
+  margin-top: 1rem;
+}
+
+.event {
+  padding-left: 1rem;
+}
+
+.dot-wrapper {
+  height: 25px;
+  width: 25px;
+  margin: 2.1rem;
+  margin-top: 2.5rem;
+  z-index: 1;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #154661;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.temp-icon {
+  display: flex;
+  justify-content: space-between;
+}
+
+.line {
+  border-left: 5px solid #91a2ac;
+  position: absolute;
+  left: 216px;
+  top: 785px;
+  height: 1200px;
+}

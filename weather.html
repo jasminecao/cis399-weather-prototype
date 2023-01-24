@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Weather</title>
+    <link href="weather.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <h1>Good morning, Jasmine.</h1>
+      <div class="container">
+        <div>
+          <div class="container">
+            <p class="temp">45°</p>
+            <div class="subtitle" style="margin-left: 1rem">
+              <p style="margin: 0">H: 54°</p>
+              <p style="margin: 5rem 0 0 0">L: 32°</p>
+            </div>
+          </div>
+          <p class="subtitle">Feels like <strong>38°</strong> due to wind.</p>
+        </div>
+        <div style="margin-left: 3rem">
+          <img src="icons/drizzle.png" alt="Drizzle" width="280px" />
+        </div>
+      </div>
+      <p class="weather-text">
+        Partly cloudy. Rain forecasted from <strong>10AM-5PM</strong>.
+      </p>
+    </header>
+    <div style="margin-top: 3rem">
+      <span class="date-text">Monday, January 23rd</span>
+      <div style="float: right">
+        <span class="weather-text" style="margin-right: 0.5rem">Edit</span>
+        <img src="icons/edit.png" width="32px" />
+      </div>
+    </div>
+    <div class="schedule">
+      <div class="line"></div>
+      <div class="container">
+        <div style="width: 12%">
+          <p class="time">9 AM</p>
+          <div class="temp-icon">
+            <p class="subtitle">45°</p>
+            <img src="icons/wind.png" width="32px" />
+          </div>
+        </div>
+        <div class="dot-wrapper"><span class="dot"></span></div>
+        <div class="event">
+          <p class="event-text">Coffee with Boon.</p>
+          <p class="weather-text">Strong winds expected. Dress warmly.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div style="width: 12%">
+          <p class="time">10 AM</p>
+        </div>
+        <div class="dot-wrapper"><span class="dot"></span></div>
+        <div class="event">
+          <p class="weather-text">Light rain begins.</p>
+        </div>
+      </div>
+      <div style="height: 60px"></div>
+      <div class="container">
+        <div style="width: 12%">
+          <p class="time">1 PM</p>
+          <div class="temp-icon">
+            <p class="subtitle">51°</p>
+            <img src="icons/rain.png" width="32px" />
+          </div>
+        </div>
+        <div class="dot-wrapper"><span class="dot"></span></div>
+        <div class="event">
+          <p class="event-text">CIS399.</p>
+          <p class="weather-text">
+            Expect rain during the walk to Towne Building.
+          </p>
+        </div>
+      </div>
+      <div style="height: 90px"></div>
+      <div class="container">
+        <div style="width: 12%">
+          <p class="time">5 PM</p>
+        </div>
+        <div class="dot-wrapper"><span class="dot"></span></div>
+        <div class="event">
+          <p class="weather-text">Rain expected to stop at 5:15PM.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div style="width: 12%">
+          <p class="time">7 PM</p>
+          <div class="temp-icon">
+            <p class="subtitle">42°</p>
+            <img src="icons/cloudy-night.png" width="32px" />
+          </div>
+        </div>
+        <div class="dot-wrapper"><span class="dot"></span></div>
+        <div class="event">
+          <p class="event-text">Frisbee Practice.</p>
+          <p class="weather-text">Partly cloudy with lower temperatures.</p>
+        </div>
+      </div>
+    </div>
+    <p
+      style="
+        font-weight: 300;
+        margin-top: 7rem;
+        text-align: right;
+        color: #154661;
+      "
+    >
+      See tomorrow's weather <strong>></strong>
+    </p>
+  </body>
+</html>
